@@ -8,11 +8,11 @@ const reverseArray = n => {
   return array.reverse();
 };
 
-console.log(reverseArray(3))
+console.log(reverseArray(3));
 
 // 5.Palindrome
 
-const palindrome = (string) => {
+const palindrome = string => {
   let str = "";
   let arrayFromString = string.split("");
 
@@ -31,7 +31,7 @@ const palindrome = (string) => {
   }
   return false;
 };
-console.log(palindrome("abut-1-tuba"))
+console.log(palindrome("abut-1-tuba"));
 //6.Permutation
 
 const perm = tab1 => {
@@ -101,17 +101,16 @@ const optionalPow = (n, m) => {
     return Math.pow(n, m);
   } else return Math.pow(m, n);
 };
-console.log(optionalPow(2,3))
+console.log(optionalPow(2, 3));
 
 ///10.Fix age
 
 let testedArray = [5, 15, 25, 78, 59, 45];
 const fixAge = tab => {
   let array = tab.filter(val => val >= 18 && val < 61);
-  console.log(array);
 };
 
-fixAge(testedArray)
+fixAge(testedArray);
 //11.Common Digit
 
 const commonDigit = (n, tab) => {
